@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03c92833-42da-460c-9ffd-db6d5ca0d95c" name="Default Changelist" comment="" />
+    <list default="true" id="03c92833-42da-460c-9ffd-db6d5ca0d95c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据/人工标注数据集" beforeDir="false" afterPath="$PROJECT_DIR$/数据/人工标注数据集" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +48,45 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-777249774">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="人工标注数据集" value="219" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="219" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="毕业论文" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据/query_pair2019-09-24.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="349" column="14" selection-start-line="349" selection-start-column="14" selection-end-line="349" selection-end-column="14" />
+            <state relative-caret-position="-266">
+              <caret line="565" column="14" lean-forward="true" selection-start-line="565" selection-start-column="14" selection-end-line="565" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -63,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/process/get_predata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="240">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="15" />
               <folding>
                 <marker date="1569986494111" expanded="true" signature="1363:1368" ph="..." />
               </folding>
@@ -75,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据/xiaoai.txt">
           <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="184">
-              <caret line="28598" column="9" selection-start-line="28598" selection-start-column="5" selection-end-line="28598" selection-end-column="9" />
+            <state relative-caret-position="124">
+              <caret line="28596" column="7" lean-forward="true" selection-start-line="28596" selection-start-column="7" selection-end-line="28596" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -84,8 +115,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据/人工标注数据集">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="216">
+              <caret line="210" column="4" lean-forward="true" selection-start-line="210" selection-start-column="4" selection-end-line="210" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -114,10 +157,15 @@
       <find>我的垃圾和微信垃圾清好了吗</find>
       <find>帮我清一下QQ垃圾</find>
       <find>微信专清</find>
+      <find>手机瘦身</find>
+      <find>网络助手</find>
+      <find>电量管理</find>
+      <find>深度</find>
+      <find>安全扫描</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/-" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,13 +193,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="毕业论文" type="b2602c69:ProjectViewProjectNode" />
-              <item name="毕业论文" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="毕业论文" type="b2602c69:ProjectViewProjectNode" />
-              <item name="毕业论文" type="462c0819:PsiDirectoryNode" />
-              <item name="数据" type="462c0819:PsiDirectoryNode" />
+              <item name="sentence-embedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sentence-embedding" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,6 +204,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -218,14 +262,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.5012225" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33004925" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5012225" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37704918" />
@@ -233,6 +274,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -242,34 +287,44 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/数据/xiaoai.txt">
       <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="184">
-          <caret line="28598" column="9" selection-start-line="28598" selection-start-column="5" selection-end-line="28598" selection-end-column="9" />
+        <state relative-caret-position="124">
+          <caret line="28596" column="7" lean-forward="true" selection-start-line="28596" selection-start-column="7" selection-end-line="28596" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据/query_pair2019-09-24.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="565" column="14" lean-forward="true" selection-start-line="565" selection-start-column="14" selection-end-line="565" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/process/get_predata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="240">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="15" />
           <folding>
             <marker date="1569986494111" expanded="true" signature="1363:1368" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据/query_pair2019-09-24.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="349" column="14" selection-start-line="349" selection-start-column="14" selection-end-line="349" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据/人工标注数据集">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="216">
+          <caret line="210" column="4" lean-forward="true" selection-start-line="210" selection-start-column="4" selection-end-line="210" selection-end-column="4" />
         </state>
       </provider>
     </entry>

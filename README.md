@@ -1,5 +1,12 @@
 # 毕业设计
 ## 中文文本相似度--句向量
+## 整体实验设计
+|相似度|具体做法|
+|:----:|:----:|
+|Jaccard系数|分词<br>未分词|
+|编辑距离|最小操作次数|
+|余弦相似度|Word2vec/Glove+分词+加权平均<br>Word2vec/Glove+未分词+加权平均<br>Word2vec/Glove+分词+Qucik-thoughts<br>Word2vec/Glove+未分词+Quick-thoughts|
+
 ### 第一步：
 &#160; &#160; &#160; &#160;人工标注验证集（大约4000条数据，需要20天左右，10月25日之前完成。）
 
@@ -19,11 +26,3 @@
 
 ### 第四步：
 &#160; &#160; &#160; &#160;引入位置编码的Quick-thoughts
-
-
-## 整体实验设计
-|相似度|具体做法|
-|:----:|:----:|
-|Jaccard系数|分词<br>未分词|
-|编辑距离|最小操作次数|
-|余弦相似度|Word2vec/Glove+分词+加权平均<br>Word2vec/Glove+未分词+加权平均<br>Word2vec/Glove+分词+Qucik-thoughts<br>Word2vec/Glove+未分词+Quick-thoughts|

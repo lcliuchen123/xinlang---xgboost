@@ -62,11 +62,24 @@ def  get_pre_sentence(file_name):
 
 
 if __name__ == "__main__":
-    file_name = 'F:\毕业论文\数据\query_pair2019-09-24'
+    file_name = 'F:\毕业论文\sentence-embedding\数据\query_pair2019-09-24'
     pre_sentence = get_pre_sentence(file_name)
     label_list = list(pre_sentence.keys())
     pre_text = list(pre_sentence.values())
     print(len(pre_sentence))
     print(sum([len(pre_text[i]) for i in range(len(pre_text))]))
     print(label_list)
+    # with open('F:\毕业论文\sentence-embedding\数据\label.txt','w',encoding='utf8') as f:
+    #     for item in label_list:
+    #         f.write(item)
+    #         f.write('\n')
+
+    count = 0
+    with open('F:\毕业论文\sentence-embedding\数据\data.txt','w',encoding='utf8') as f:
+        for item in label_list:
+            count += 1
+            if count > 28:
+                for i in range(30):
+                    f.write(item)
+                    f.write('\n')
 

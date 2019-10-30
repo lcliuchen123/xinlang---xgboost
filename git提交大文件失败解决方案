@@ -1,0 +1,5 @@
+https://blog.csdn.net/weixin_30662539/article/details/97999497
+git status
+git cherry -v
+git reset commit_id
+git log

@@ -1,6 +1,5 @@
 
 from model import *
-<<<<<<< HEAD
 from process_data import process_data
 from create_feature import *
 from cost_time import *
@@ -130,17 +129,3 @@ if __name__ == "__main__":
     predict_obj.get_all_result()
     end_time = time.time()
     print('the cost of time is %f' % (end_time-start_time))
-=======
-from process_data import *
-
-def get_result(xgb_params, single_xtrain, single_ytrain, single_xtest, single_ytest):
-    #     bst = XGBoostRegressor(num_boost_round=150, eta=0.05, gamma=0.2, max_depth=5, min_child_weight=3,
-    #                                     colsample_bytree=0.5, subsample=0.5)
-    bst = XGBoostRegressor(**xgb_params)
-    bst.fit(single_xtrain, single_ytrain)
-    ybeta = bst.predict(single_xtest)
-    test_mae = mae_score(ybeta, single_ytest)
-    print("mae: ", test_mae)
-
-    return test_mae, ybeta
->>>>>>> 3324a802c8758068c23424229eb50d3e889f9b34

@@ -1,16 +1,12 @@
 
 #  make_scorer创造计分器评估模型，高的分意味着效果好。用于网格搜索
-<<<<<<< HEAD
 # 复制别人的代码，经常容易出现漏写，错写情况，deep参数和网格搜索时构造的mae_score参数
 
-=======
->>>>>>> 3324a802c8758068c23424229eb50d3e889f9b34
 import xgboost as xgb
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_absolute_error, make_scorer
-<<<<<<< HEAD
 from sklearn.model_selection import  KFold,train_test_split, GridSearchCV,RandomizedSearchCV
 from cost_time import run_time
 
@@ -24,14 +20,6 @@ def astype_cate(data, cate_feature):
     :param cate_feature: 分类变量的列名
     :return:
     """
-=======
-from sklearn.cross_validation import KFold, train_test_split
-from sklearn.grid_search import GridSearchCV
-
-
-# 设置分类变量
-def astype_cate(data, cate_feature):
->>>>>>> 3324a802c8758068c23424229eb50d3e889f9b34
     try:
         for column in cate_feature:
             data[column] = data[column].astype('category').cat.codes
@@ -40,7 +28,6 @@ def astype_cate(data, cate_feature):
 
     return data
 
-<<<<<<< HEAD
 # 2.切分数据集
 @run_time
 def split_data(data, y_columns):
@@ -49,11 +36,6 @@ def split_data(data, y_columns):
     :param y_columns: 因变量的列名 -》链表
     :return: 切分后的训练集和测试集（所有特征）
     """
-=======
-
-# 切分数据集
-def split_data(data, y_columns):
->>>>>>> 3324a802c8758068c23424229eb50d3e889f9b34
     y = pd.DataFrame(data, columns=y_columns)
 
     column_names = list(data.columns)
@@ -67,7 +49,6 @@ def split_data(data, y_columns):
 
     return x_train, x_test, y_train, y_test
 
-<<<<<<< HEAD
 # 3.分别获取转发数，评论数和点赞数的特征
 @run_time
 def get_single_feature(data, y_columns, xcolumn_names, ycolumn_names,type):
@@ -106,39 +87,12 @@ def xg_eval_mae(yhat, dtrain):
     return 'mae', mean_absolute_error(np.array(y), np.array(yhat))
 
 # 4.2 构建模型性能评估函数
-=======
-
-# 分别获取转发数，评论数和点赞数的特征
-def get_single_feature(data, y_columns, xcolumn_names, ycolumn_names):
-    try:
-        x_train, x_test, y_train, y_test = split_data(data, y_columns)
-        single_xtrain = pd.DataFrame(x_train, columns=xcolumn_names)
-        single_ytrain = pd.DataFrame(y_train, columns=ycolumn_names)
-        single_xtest = pd.DataFrame(x_test, columns=xcolumn_names)
-        single_ytest = pd.DataFrame(y_test, columns=ycolumn_names)
-    except:
-        print('error')
-
-    return single_xtrain, single_ytrain, single_xtest, single_ytest
-
-
-# 构建xgboost模型
-# 构建绝对值损失函数
-def xg_eval_mae(yhat, dtrain):
-    y = dtrain.get_label()
-    return 'mae', mean_absolute_error(np.array(y), np.array(yhat))
-
-# 构建模型性能评估函数
->>>>>>> 3324a802c8758068c23424229eb50d3e889f9b34
 def mae_score(y_true, y_pred):
     return mean_absolute_error(np.array(y_true), np.array(y_pred))
 
 # mae_scorer = make_scorer(mae_score,greater_is_better=False)
 
-<<<<<<< HEAD
 # 4.3构建XGBoostRegressor类
-=======
->>>>>>> 3324a802c8758068c23424229eb50d3e889f9b34
 # xgboost 自定义了一个数据矩阵类 DMatrix，
 # 会在训练开始时进行一遍预处理(具体指什么？？？？？？？？？），从而提高之后每次迭代的效率
 class XGBoostRegressor(object):
@@ -146,11 +100,7 @@ class XGBoostRegressor(object):
         self.params = kwargs
         if 'num_boost_round' in self.params:
             self.num_boost_round = self.params['num_boost_round']
-<<<<<<< HEAD
         self.params.update({'silent': 1, 'objective': 'count:poisson', 'seed': 0})
-=======
-        self.params.update({'silent': 1, 'Objective': 'count:poisson', 'seed': 0})
->>>>>>> 3324a802c8758068c23424229eb50d3e889f9b34
 
     def fit(self, x_train, y_train):
         dtrain = xgb.DMatrix(x_train, y_train)
@@ -179,12 +129,7 @@ class XGBoostRegressor(object):
         self.params.update(params)
         return self
 
-<<<<<<< HEAD
 # 4.4调参，树的颗数和学习率调节较为费时，因此单独拿出来进行网格搜索
-=======
-
-# 调参，树的颗数和学习率调节较为费时，因此单独拿出来进行网格搜索
->>>>>>> 3324a802c8758068c23424229eb50d3e889f9b34
 def grid_search(xgb_params_out, grid_params, xtrain, ytrain, function_name):
     for key in list(grid_params.keys()):
         if key in xgb_params_out:
@@ -194,18 +139,11 @@ def grid_search(xgb_params_out, grid_params, xtrain, ytrain, function_name):
     grid = GridSearchCV(XGBoostRegressor(**xgb_params_out), param_grid=grid_params, cv=5, scoring=mae_scorer)
     grid.fit(xtrain, ytrain.values)
 
-<<<<<<< HEAD
     return grid.cv_results_, grid.best_params_, grid.best_score_
 
 @run_time
 def get_best_xgb_params(xtrain, ytrain,eval_func='mae_score'):
     min_score = float('-inf')
-=======
-    return grid.grid_scores_, grid.best_params_, grid.best_score_
-
-
-def get_best_xgb_params(xtrain, ytrain):
->>>>>>> 3324a802c8758068c23424229eb50d3e889f9b34
     # 1.初始化模型
     xgb_params = {
         'seed': 0,
@@ -221,7 +159,6 @@ def get_best_xgb_params(xtrain, ytrain):
     # 2.调整树的最大深度max_depth：一般在3-10之间。
     # 正则化参数min_child_weight：如果树分区中的实例权重小于定义的总和，则停止树构建过程。
     xgb_depth_weight = {'max_depth': list(range(3, 10)), 'min_child_weight': list((1, 3, 6))}
-<<<<<<< HEAD
     first_grid_scores, first_best_params, first_best_score = \
         grid_search(xgb_params,xgb_depth_weight,xtrain, ytrain,eval_func)
     if first_best_score > min_score:
@@ -309,36 +246,3 @@ if __name__ == "__main__":
 
     xgb_params = get_best_xgb_params(single_xtrain, single_ytrain)
     best_estimator,best_grid_scores, best_params, best_score = get_eta_num(xgb_params,single_xtrain,single_ytrain)
-=======
-    first_grid_scores, first_best_params, first_best_score = grid_search(xgb_params, xgb_depth_weight, xtrain, ytrain,                                                              mae_score)
-    xgb_params.update(first_best_params)
-
-    # 3.调节gamma去降低过拟合风险. gamma:损失下降多少才进行分裂
-    xgb_gamma = {'gamma': [0.1 * i for i in range(0, 5)]}
-    second_grid_scores, second_best_params, second_best_score = grid_search(xgb_params, xgb_gamma, xtrain, ytrain,                                                                      mae_score)
-    xgb_params.update(second_best_params)
-
-    # 4.调节样本采样方式 subsample 和 colsample_bytree
-    xgb_sample_grid = {'subsample': [0.1 * i for i in range(6, 9)], 'colsample_bytree': [0.1 * i for i in range(6, 9)]}
-    third_grid_scores, third_best_params, third_best_score = grid_search(xgb_params, xgb_sample_grid, xtrain, ytrain,                                                                 mae_score)
-    xgb_params.update(third_best_params)
-
-    return xgb_params
-
-# 返回最优的估计器
-def grid_eta_num(xgb_params,xtrain,ytrain):
-    #     调节学习率eta和树个数num_boost_round，需要先设定树的棵数
-    best_result = []
-    xgb_eta_tree = {'eta': [0.05 * i for i in range(0, 20)]}
-    for num in list(range(50, 300, 50)):
-        xgb_params.update({'num_boost_round': num})
-        fourth_grid_scores, fourth_best_params, fourth_best_score = grid_search(xgb_params, xgb_eta_tree, xtrain,
-                                                                                ytrain, mae_score)
-        best_result.append((fourth_grid_scores, fourth_best_params, fourth_best_score))
-
-    sorted(best_result, key=lambda x: x[2], reverse=True)
-    best_grid_scores, best_params, best_score = best_result[0]
-    xgb_params.update(best_params)
-
-    return best_grid_scores, best_params, best_score
->>>>>>> 3324a802c8758068c23424229eb50d3e889f9b34

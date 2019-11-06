@@ -24,7 +24,7 @@ def astype_cate(data, cate_feature):
         for column in cate_feature:
             data[column] = data[column].astype('category').cat.codes
     except:
-        print("error")
+        print("error!!! please input the correct category columns names")
 
     return data
 
@@ -198,7 +198,7 @@ def get_eta_num(xgb_params,xtrain,ytrain,eval_func=mae_score):
         xgb_params.update({'num_boost_round': num})
         random_grid = RandomizedSearchCV(XGBoostRegressor(**xgb_params),
                                          param_distributions= xgb_eta_tree,cv=5,
-                                         scoring=mae_scorer,n_iter=10,random_state=5)
+                                         scoring=mae_scorer,n_iter=1,random_state=5)
         random_grid.fit(xtrain,ytrain.values)
         best_result.append([random_grid.best_estimator_,random_grid.cv_results_,
                             random_grid.best_params_, random_grid.best_score_])
@@ -208,29 +208,29 @@ def get_eta_num(xgb_params,xtrain,ytrain,eval_func=mae_score):
     return best_estimator,best_cv_result, best_params, best_score
 
 # 返回最优的估计器
-@run_time
-def grid_eta_num(xgb_params,xtrain,ytrain):
-    #     调节学习率eta和树个数num_boost_round，需要先设定树的棵数
-    # 利用网格搜索需要消耗的时间过长
-    best_result = []
-    xgb_eta_tree = {'eta': [0.05 * i for i in range(0, 20)]}
-    best_grid_scores, best_params, best_score = \
-                grid_search(xgb_params, xgb_eta_tree, xtrain,ytrain, mae_score)
-    # for num in list(range(50, 300, 50)):
-    #     xgb_params.update({'num_boost_round': num})
-    #     fourth_best_estimator,fourth_grid_scores, fourth_best_params, fourth_best_score = \
-    #         grid_search(xgb_params, xgb_eta_tree, xtrain,ytrain, mae_score)
-    #     best_result.append([fourth_best_estimator,fourth_grid_scores, fourth_best_params, fourth_best_score])
-    #
-    # sorted(best_result, key=lambda x: x[-1], reverse=True)
-    # best_grid_scores, best_params, best_score = best_result[0]
-    xgb_params.update(best_params)
-    print("the best score of eta_num_boost is %f" % (float(best_score)))
-
-    return best_grid_scores, best_params, best_score
+# @run_time
+# def grid_eta_num(xgb_params,xtrain,ytrain):
+#     #     调节学习率eta和树个数num_boost_round，需要先设定树的棵数
+#     # 利用网格搜索需要消耗的时间过长
+#     best_result = []
+#     xgb_eta_tree = {'eta': [0.05 * i for i in range(0, 20)]}
+#     best_grid_scores, best_params, best_score = \
+#                 grid_search(xgb_params, xgb_eta_tree, xtrain,ytrain, mae_score)
+#     # for num in list(range(50, 300, 50)):
+#     #     xgb_params.update({'num_boost_round': num})
+#     #     fourth_best_estimator,fourth_grid_scores, fourth_best_params, fourth_best_score = \
+#     #         grid_search(xgb_params, xgb_eta_tree, xtrain,ytrain, mae_score)
+#     #     best_result.append([fourth_best_estimator,fourth_grid_scores, fourth_best_params, fourth_best_score])
+#     #
+#     # sorted(best_result, key=lambda x: x[-1], reverse=True)
+#     # best_grid_scores, best_params, best_score = best_result[0]
+#     xgb_params.update(best_params)
+#     print("the best score of eta_num_boost is %f" % (float(best_score)))
+#
+#     return best_grid_scores, best_params, best_score
 
 if __name__ == "__main__":
-    df = pd.read_table("F:\\process_data.txt", sep='\t', header=0)  # 默认情况下是header=0，表示把第一行作为列名
+    df = pd.read_table("F:\\process_data.txt", sep='\t', header=0,encoding='utf-8',quoting=3)  # 默认情况下是header=0，表示把第一行作为列名
     cate_feature = ['weight_time', 'is_aite', 'is_url', 'is_theme', 'is_face']
     new_df = astype_cate(df,cate_feature)
     cate_feature.append('content_length')

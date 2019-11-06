@@ -5,6 +5,8 @@ from create_feature import *
 from cost_time import *
 import numpy as np
 import time
+import os
+import pickle
 
 class Predict_data():
     def __init__(self,train_file_name,cate_feature,
@@ -31,12 +33,14 @@ class Predict_data():
             if self.train_file_name:
                 self.train_features = get_features(train_data, train_data,self.y_columns_list,
                                                    self.top_word_dic,'train',self.process_column_list)
-                print("*****create train features*****")
+                print("*****the train features have been created*****")
+                self.train_features.to_csv('./features/train.txt', sep='\t', index=False)
             if self.test_file_name:
                 test_data = process_data(self.test_file_name,type='test')
                 self.test_features = get_features(train_data, test_data,self.y_columns_list,
                                                   self.top_word_dic,'test', self.process_column_list)
-                print("*****create test features*****")
+                print("*****the test features have been created*****")
+                self.test_features.to_csv('./features/test.txt', sep='\t', index=False)
         except:
             print("please input the file_name of train or test")
 
@@ -63,6 +67,19 @@ class Predict_data():
 
     @run_time
     def get_act_features(self,act_xcolumn,act_ycolumn):
+        if 'train.txt' in os.listdir('.'):
+            column = []
+            column.extend(act_xcolumn)
+            column.extend(self.cate_feature)
+            column.extend(act_ycolumn)
+            if 'content_length' not in column:
+                column.append('content_length')
+            self.train_features = pd.read_table('./features/train.txt',usecols=column,encoding='utf-8',quoting=3)
+            print("the length of train_feature is %d" % len(self.train_features))
+        if 'test.txt' in os.listdir('.'):
+            self.test_features = pd.read_table('./features/test.txt',encoding='utf-8',quoting=3)
+            print("the length of test_feature is %d" % len(self.test_features))
+
         train_features = astype_cate(self.train_features, self.cate_feature)
         test_features = astype_cate(self.test_features,self.cate_feature)
         if 'content_length' not in self.cate_feature:
@@ -72,7 +89,7 @@ class Predict_data():
                 get_single_feature(train_features, self.y_columns_list, act_xcolumn, act_ycolumn,type='train')
         x_predict = \
                 get_single_feature(test_features, self.y_columns_list, act_xcolumn, act_ycolumn,type='test')
-
+        print('the length of predict_data is %d ' % len(x_predict))
         return xtrain, ytrain, xtest, ytest, x_predict
 
     @run_time
@@ -93,6 +110,8 @@ class Predict_data():
         print("*******************start the tuning params***************************")
         best_estimator, best_cv_result, best_params, best_score = self.create_model(xtrain,ytrain)
         print("*********************the best model have been created**********************")
+        self.save_model(best_estimator,col_name)
+        print("the %s model have been saved" % col_name)
         self.all_estimator[act_ycolumn[0]] = best_estimator
         self.params[act_ycolumn[0]] = best_params
         self.all_best_score[act_ycolumn[0]] = best_score
@@ -108,10 +127,24 @@ class Predict_data():
 
         return result
 
+    @run_time
+    def save_model(self,model,col_name):
+        file_name =  './model/%s_model' % col_name
+        with open(file_name,'wb') as f:
+            pickle.dump(model,f)
+
+    @run_time
+    def load_model(self,col_name):
+        file_name = './model/%s_model' % col_name
+        with open(file_name,'rb') as f:
+            model = pickle.load(f)
+        # model.predict()
+        return model
+
     def get_all_result(self):
         for ycol_name in self.y_columns_list:
             result = self.get_result(ycol_name)
-            file_name = ycol_name +'_result.txt'
+            file_name = './result/%s_result.txt' % ycol_name
             result.to_csv(file_name, sep='\t', index=False)
             print('the %s has been predicted!' % ycol_name)
 
@@ -125,7 +158,17 @@ if __name__ == "__main__":
     predict_obj = Predict_data(train_file_name,cate_feature,column_list,
                                y_columns_list,eval_func,test_file_name)
     start_time = time.time()
-    predict_obj.create_features()
+    # predict_obj.create_features()
     predict_obj.get_all_result()
     end_time = time.time()
-    print('the cost of time is %f' % (end_time-start_time))
+    # 直接预测需要54614秒，多线程仅需要29976s
+    print('the cost of time is %f' % (end_time-start_time))#54614s
+
+    # 预测案例
+    model = predict_obj.load_model('forward_count')
+    xtest = pd.DataFrame(np.ones((1,10)),columns=['min_forward_num', 'max_forward_num',
+                                'mean_forward_num', 'forward_wordnum',
+                                'weight_time', 'is_aite', 'is_url', 'is_theme',
+                                'is_face', 'content_length'])
+    xpredict = model.predict(xtest)
+    print(xpredict)

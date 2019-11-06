@@ -3,3 +3,4 @@ git status
 git cherry -v
 git reset commit_id
 git log
+git init

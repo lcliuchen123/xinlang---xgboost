@@ -205,7 +205,7 @@ def get_features(process_train_data,pred_data,y_columns_list,top_word_dic,type,c
                           'min_forward_num', 'max_forward_num', 'mean_forward_num', 'total_forward_num',
                           'count_forward_count','min_comment_num', 'max_comment_num','mean_comment_num', 'total_comment_num','count_comment_count',
                             'min_like_num', 'max_like_num', 'mean_like_num', 'total_like_num', 'count_like_count']
-    elif type == 'test':
+    if type == 'test':
         features.columns = ['uid', 'mid', 'time','content',
                             'min_forward_num', 'max_forward_num', 'mean_forward_num', 'total_forward_num','count_forward_count',
                             'min_comment_num', 'max_comment_num','mean_comment_num', 'total_comment_num', 'count_comment_count',

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/毕业论文.iml" filepath="$PROJECT_DIR$/.idea/毕业论文.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/xinlang---xgboost.iml" filepath="$PROJECT_DIR$/.idea/xinlang---xgboost.iml" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+    </modules>
+  </component>
+</project>

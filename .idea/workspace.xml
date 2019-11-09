@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+<<<<<<< HEAD
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="24" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03c92833-42da-460c-9ffd-db6d5ca0d95c" name="Default Changelist" comment="" />
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="c4f35919-7d76-4fc7-a1f5-8265ac4fc86c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git提交大文件失败解决方案" beforeDir="false" afterPath="$PROJECT_DIR$/git提交大文件失败解决方案" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/last_commit.py" beforeDir="false" afterPath="$PROJECT_DIR$/last_commit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/process_data.py" afterDir="false" />
+    </list>
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+<<<<<<< HEAD
+    <session id="1199543469">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+          <entry key="txt" value="2" />
+          <entry key="人工标注数据集" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="40" />
+          <entry key="dummy" value="11" />
+          <entry key="py" value="977" />
+          <entry key="txt" value="4" />
+          <entry key="人工标注数据集" value="280" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="295" />
+          <entry key="Python" value="1017" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-777249774">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="16" />
+=======
+    <session id="-1322309386">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+<<<<<<< HEAD
+          <entry key="md" value="1" />
+          <entry key="py" value="6" />
+          <entry key="sh" value="2" />
+          <entry key="txt" value="5" />
+          <entry key="人工标注数据集" value="1" />
+          <entry key="类别说明" value="1" />
+=======
+          <entry key="git提交大文件失败解决方案" value="1" />
+          <entry key="md" value="2" />
+          <entry key="py" value="20" />
+          <entry key="txt" value="10" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+<<<<<<< HEAD
+          <entry key="Bash" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="6" />
+=======
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="20" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+<<<<<<< HEAD
+          <entry key="Python Console" value="262" />
+          <entry key="md" value="560" />
+          <entry key="py" value="2012" />
+          <entry key="人工标注数据集" value="1078" />
+          <entry key="类别说明" value="602" />
+=======
+          <entry key="Python Console" value="213" />
+          <entry key="git提交大文件失败解决方案" value="8" />
+          <entry key="md" value="4" />
+          <entry key="py" value="3560" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+<<<<<<< HEAD
+          <entry key="Markdown" value="560" />
+          <entry key="PLAIN_TEXT" value="1680" />
+          <entry key="Python" value="2274" />
+=======
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="3773" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+<<<<<<< HEAD
+    <favorites_list name="毕业论文" />
+=======
+    <favorites_list name="xinlang---xgboost" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="720">
+                <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/cost_time.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="e#1#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/process_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding>
+                <element signature="e#1#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/predict_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="173" column="19" lean-forward="true" selection-start-line="173" selection-start-column="19" selection-end-line="173" selection-end-column="19" />
+              <folding>
+                <element signature="e#1#20#0" expanded="true" />
+                <marker date="1573006789924" expanded="true" signature="2103:2109" ph="..." />
+                <marker date="1573006789924" expanded="true" signature="4572:4578" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="257">
+                <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/commit.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multi_process.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <element signature="e#1#27#0" expanded="true" />
+                <marker date="1573003027207" expanded="true" signature="177:178" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/last_commit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/jaccard.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#1#19#0" expanded="true" />
+                <marker date="1573223560808" expanded="true" signature="165:166" ph="..." />
+                <marker date="1573223560808" expanded="true" signature="685:972" ph="..." />
+                <marker date="1573223560808" expanded="true" signature="1006:1423" ph="..." />
+=======
+        <entry file="file://$PROJECT_DIR$/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="232" column="22" selection-start-line="232" selection-start-column="12" selection-end-line="232" selection-end-column="22" />
+              <folding>
+                <element signature="e#94#115#0" expanded="true" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/wa.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+=======
+        <entry file="file://$PROJECT_DIR$/create_feature.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+              <folding>
+                <element signature="e#1#20#0" expanded="true" />
+              </folding>
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+<<<<<<< HEAD
+        <option value="Python Unit Test" />
+=======
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+<<<<<<< HEAD
+      <find>帮我清理一下应用内存</find>
+      <find>内存</find>
+      <find>返回安全中心主页</find>
+      <find>安全中心首页</find>
+      <find>帮我检测手机安全</find>
+      <find>给老子关机确认关闭手机</find>
+      <find>关机</find>
+      <find>小爱小爱帮我手机重新启动</find>
+      <find>锁</find>
+      <find>MIUI版本</find>
+      <find>关闭手机重新启动手机</find>
+      <find>字体大小</find>
+      <find>日期和时间设置</find>
+      <find>耳机和音效</find>
+      <find>应用锁</find>
+      <find>帮我开一下个性主题</find>
+      <find>小爱帮忙定制主题</find>
+      <find>更换好看的主题</find>
+      <find>小爱帮我充个电话费</find>
+      <find>小米步数统计</find>
+      <find>手机瘦身</find>
+      <find>请帮我清理内存空间</find>
+      <find>帮我清理一下内存和垃圾</find>
+      <find>关关闭所有后台程序</find>
+      <find>你知道抖音里最火的歌是什么吗</find>
+      <find>清理后台</find>
+      <find>小爱帮我搜索一下最火的歌</find>
+      <find>铃声首页</find>
+      <find>个性主题</find>
+      <find>字体首页</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+=======
+      <find>error</find>
+      <find>read_table</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/process/get_label.py" />
+        <option value="$PROJECT_DIR$/process/get_predata.py" />
+        <option value="$PROJECT_DIR$/数据/人工标注数据集" />
+        <option value="$PROJECT_DIR$/数据/类别说明" />
+        <option value="$PROJECT_DIR$/数据/query_pair2019-09-24.txt" />
+        <option value="$PROJECT_DIR$/jaccard.py" />
+        <option value="$PROJECT_DIR$/wa.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+=======
+        <option value="$PROJECT_DIR$/data/create_feature.py" />
+        <option value="$PROJECT_DIR$/git提交大文件失败解决方案" />
+        <option value="$PROJECT_DIR$/create_feature.py" />
+        <option value="$PROJECT_DIR$/process_data.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/multi_process.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/last_commit.py" />
+        <option value="$PROJECT_DIR$/predict_data.py" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+    <option name="x" value="2" />
+    <option name="y" value="11" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+<<<<<<< HEAD
+              <item name="sentence-embedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sentence-embedding" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sentence-embedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sentence-embedding" type="462c0819:PsiDirectoryNode" />
+              <item name="数据" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="xinlang---xgboost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinlang---xgboost" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="F:/word2vec" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\毕业论文\sentence-embedding\数据" />
+      <recent name="F:\毕业论文\sentence-embedding" />
+    </key>
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Python.jaccard">
+    <configuration name="get_label" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="毕业论文" />
+=======
+  <component name="RunManager" selected="Python.last_commit">
+    <configuration name="last_commit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="xinlang---xgboost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/last_commit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="multi_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="xinlang---xgboost" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/process" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="F:\毕业论文\process\get_predata.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multi_process.py" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="get_predata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="毕业论文" />
+=======
+    <configuration name="predict_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="xinlang---xgboost" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/process" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process/get_predata.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predict_data.py" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="jaccard" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="毕业论文" />
+=======
+    <configuration name="process_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="xinlang---xgboost" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jaccard.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process_data.py" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+<<<<<<< HEAD
+      <item itemvalue="Python.get_label" />
+      <item itemvalue="Python.get_predata" />
+      <item itemvalue="Python.jaccard" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.jaccard" />
+        <item itemvalue="Python.get_predata" />
+        <item itemvalue="Python.get_label" />
+=======
+      <item itemvalue="Python.process_data" />
+      <item itemvalue="Python.predict_data" />
+      <item itemvalue="Python.last_commit" />
+      <item itemvalue="Python.multi_process" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.last_commit" />
+        <item itemvalue="Python.predict_data" />
+        <item itemvalue="Python.multi_process" />
+        <item itemvalue="Python.process_data" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="03c92833-42da-460c-9ffd-db6d5ca0d95c" name="Default Changelist" comment="" />
+      <created>1569982090209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569982090209</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.17038691" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5012225" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.34811166" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49925596" weight="0.29720855" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.37602627" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.5786885" />
+=======
+      <changelist id="c4f35919-7d76-4fc7-a1f5-8265ac4fc86c" name="Default Changelist" comment="" />
+      <created>1571800259348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571800259348</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1436012" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" weight="0.3296131" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3727422" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32840723" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.42200327" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+<<<<<<< HEAD
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/-" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/数据/label.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据/data.txt" />
+    <entry file="file://$PROJECT_DIR$/数据/stopwords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据/类别说明">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word_embedding.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/scipy/linalg/misc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1574">
+          <caret line="64" column="46" lean-forward="true" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jaccard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+            <marker date="1573223560808" expanded="true" signature="165:166" ph="..." />
+            <marker date="1573223560808" expanded="true" signature="685:972" ph="..." />
+            <marker date="1573223560808" expanded="true" signature="1006:1423" ph="..." />
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/comment_count_result.txt" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/sklearn/metrics/regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1710">
+          <caret line="111" column="39" lean-forward="true" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/xgboost/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="318" selection-start-line="318" selection-end-line="318" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="389">
+          <caret line="2647" column="51" selection-start-line="2647" selection-end-line="2647" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forward_count_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo_result_data.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cost_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#1#12#0" expanded="true" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/sklearn/feature_extraction/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14670">
+          <caret line="510" column="41" selection-start-line="510" selection-start-column="41" selection-end-line="510" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据/人工标注数据集">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据/xiaoai.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="523">
+          <caret line="28596" column="7" selection-start-line="28596" selection-start-column="7" selection-end-line="28596" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/get_predata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <marker date="1571113932886" expanded="true" signature="1363:1368" ph="..." />
+=======
+    <entry file="file://$PROJECT_DIR$/git提交大文件失败解决方案">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/weibo_predict_data.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-152071" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-531">
+          <caret line="688" selection-start-line="688" selection-end-line="688" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="232" column="22" selection-start-line="232" selection-start-column="12" selection-end-line="232" selection-end-column="22" />
+          <folding>
+            <element signature="e#94#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/数据/query_pair2019-09-24.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+=======
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="333" column="8" selection-start-line="333" selection-start-column="8" selection-end-line="333" selection-end-column="8" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+<<<<<<< HEAD
+          <first_editor relative-caret-position="720">
+            <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+=======
+          <first_editor relative-caret-position="257">
+            <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/commit.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+=======
+    <entry file="file://$PROJECT_DIR$/last_commit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
+            <marker date="1573003027207" expanded="true" signature="177:178" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predict_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="173" column="19" lean-forward="true" selection-start-line="173" selection-start-column="19" selection-end-line="173" selection-end-column="19" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+            <marker date="1573006789924" expanded="true" signature="2103:2109" ph="..." />
+            <marker date="1573006789924" expanded="true" signature="4572:4578" ph="..." />
+          </folding>
+>>>>>>> b9dead8f25fc2ffb6101ad9a1a4cfb2da3961b47
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -4,17 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/README.md" line="24" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03c92833-42da-460c-9ffd-db6d5ca0d95c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jaccard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/word_embedding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据/stopwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据/query_pair2019-09-24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/数据/query_pair2019-09-24.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据/人工标注数据集" beforeDir="false" afterPath="$PROJECT_DIR$/数据/人工标注数据集" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据/类别说明" beforeDir="false" afterPath="$PROJECT_DIR$/数据/类别说明" afterDir="false" />
-    </list>
+    <list default="true" id="03c92833-42da-460c-9ffd-db6d5ca0d95c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -370,7 +360,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.17038691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

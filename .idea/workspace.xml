@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="24" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="03c92833-42da-460c-9ffd-db6d5ca0d95c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jaccard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/word_embedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据/stopwords.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/get_predata.py" beforeDir="false" afterPath="$PROJECT_DIR$/process/get_predata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据/query_pair2019-09-24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/数据/query_pair2019-09-24.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/数据/人工标注数据集" beforeDir="false" afterPath="$PROJECT_DIR$/数据/人工标注数据集" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/数据/类别说明" beforeDir="false" afterPath="$PROJECT_DIR$/数据/类别说明" afterDir="false" />
     </list>
@@ -55,22 +61,30 @@
     <session id="-777249774">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="sh" value="1" />
-          <entry key="txt" value="4" />
+          <entry key="py" value="6" />
+          <entry key="sh" value="2" />
+          <entry key="txt" value="5" />
+          <entry key="人工标注数据集" value="1" />
           <entry key="类别说明" value="1" />
         </counts>
       </usages-collector>
@@ -78,22 +92,24 @@
         <counts>
           <entry key="Bash" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="443" />
-          <entry key="py" value="187" />
-          <entry key="人工标注数据集" value="1046" />
-          <entry key="类别说明" value="549" />
+          <entry key="Python Console" value="262" />
+          <entry key="md" value="560" />
+          <entry key="py" value="2012" />
+          <entry key="人工标注数据集" value="1078" />
+          <entry key="类别说明" value="602" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="443" />
-          <entry key="PLAIN_TEXT" value="1595" />
-          <entry key="Python" value="187" />
+          <entry key="Markdown" value="560" />
+          <entry key="PLAIN_TEXT" value="1680" />
+          <entry key="Python" value="2274" />
         </counts>
       </usages-collector>
     </session>
@@ -104,61 +120,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据/query_pair2019-09-24.txt">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="720">
+                <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/commit.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="1781" column="12" lean-forward="true" selection-start-line="1781" selection-start-column="12" selection-end-line="1781" selection-end-column="12" />
+            <state relative-caret-position="150">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/process/get_predata.py">
+        <entry file="file://$PROJECT_DIR$/jaccard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="78" column="31" lean-forward="true" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+            <state relative-caret-position="1380">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               <folding>
-                <marker date="1571113932886" expanded="true" signature="1363:1368" ph="..." />
+                <element signature="e#1#19#0" expanded="true" />
+                <marker date="1573223560808" expanded="true" signature="165:166" ph="..." />
+                <marker date="1573223560808" expanded="true" signature="685:972" ph="..." />
+                <marker date="1573223560808" expanded="true" signature="1006:1423" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据/xiaoai.txt">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="523">
-              <caret line="28596" column="7" selection-start-line="28596" selection-start-column="7" selection-end-line="28596" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数据/人工标注数据集">
+        <entry file="file://$PROJECT_DIR$/wa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2429">
-              <caret line="903" column="4" lean-forward="true" selection-start-line="903" selection-start-column="4" selection-end-line="903" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据/类别说明">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1261">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="840">
-                <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="30">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -168,14 +169,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>后台</find>
-      <find>优化加速</find>
       <find>帮我清理一下应用内存</find>
       <find>内存</find>
       <find>返回安全中心主页</find>
@@ -188,7 +188,6 @@
       <find>MIUI版本</find>
       <find>关闭手机重新启动手机</find>
       <find>字体大小</find>
-      <find>个性主题</find>
       <find>日期和时间设置</find>
       <find>耳机和音效</find>
       <find>应用锁</find>
@@ -204,6 +203,9 @@
       <find>你知道抖音里最火的歌是什么吗</find>
       <find>清理后台</find>
       <find>小爱帮我搜索一下最火的歌</find>
+      <find>铃声首页</find>
+      <find>个性主题</find>
+      <find>字体首页</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -213,17 +215,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/process/get_label.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/数据/query_pair2019-09-24.txt" />
-        <option value="$PROJECT_DIR$/数据/类别说明" />
         <option value="$PROJECT_DIR$/process/get_predata.py" />
         <option value="$PROJECT_DIR$/数据/人工标注数据集" />
+        <option value="$PROJECT_DIR$/数据/类别说明" />
+        <option value="$PROJECT_DIR$/数据/query_pair2019-09-24.txt" />
+        <option value="$PROJECT_DIR$/jaccard.py" />
+        <option value="$PROJECT_DIR$/wa.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="11" />
+    <option name="x" value="10" />
+    <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -233,7 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,14 +253,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/word2vec" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\毕业论文\sentence-embedding\数据" />
       <recent name="F:\毕业论文\sentence-embedding" />
     </key>
   </component>
@@ -273,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_predata">
+  <component name="RunManager" selected="Python.jaccard">
     <configuration name="get_label" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="毕业论文" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -316,12 +321,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="jaccard" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="毕业论文" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jaccard.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.get_label" />
       <item itemvalue="Python.get_predata" />
+      <item itemvalue="Python.jaccard" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jaccard" />
         <item itemvalue="Python.get_predata" />
         <item itemvalue="Python.get_label" />
       </list>
@@ -344,20 +372,20 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.24330357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.17038691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5012225" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.37602627" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.34811166" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49925596" weight="0.29720855" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.37602627" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32840723" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.5786885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -372,27 +400,69 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/commit.sh">
+    <entry file="file://$PROJECT_DIR$/数据/label.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据/data.txt" />
+    <entry file="file://$PROJECT_DIR$/数据/stopwords.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据/query_pair2019-09-24.txt">
+    <entry file="file://$PROJECT_DIR$/数据/类别说明">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="1781" column="12" lean-forward="true" selection-start-line="1781" selection-start-column="12" selection-end-line="1781" selection-end-column="12" />
+        <state relative-caret-position="103">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="840">
-            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/word_embedding.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/scipy/linalg/misc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1574">
+          <caret line="64" column="46" lean-forward="true" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jaccard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+            <marker date="1573223560808" expanded="true" signature="165:166" ph="..." />
+            <marker date="1573223560808" expanded="true" signature="685:972" ph="..." />
+            <marker date="1573223560808" expanded="true" signature="1006:1423" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/sklearn/feature_extraction/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14670">
+          <caret line="510" column="41" selection-start-line="510" selection-start-column="41" selection-end-line="510" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据/人工标注数据集">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -403,41 +473,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据/label.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1446">
-          <caret line="3078" column="6" lean-forward="true" selection-start-line="3078" selection-start-column="6" selection-end-line="3078" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据/类别说明">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1261">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/process/get_predata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="78" column="31" lean-forward="true" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+        <state relative-caret-position="30">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <marker date="1571113932886" expanded="true" signature="1363:1368" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据/人工标注数据集">
+    <entry file="file://$PROJECT_DIR$/数据/query_pair2019-09-24.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2429">
-          <caret line="903" column="4" lean-forward="true" selection-start-line="903" selection-start-column="4" selection-end-line="903" selection-end-column="4" />
+        <state relative-caret-position="433">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="720">
+            <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commit.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
